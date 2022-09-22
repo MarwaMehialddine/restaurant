@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin:0px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  /*styling the front section in home page*/
+  .front{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)),url("images/din.jpeg");
+    position:relative;
+    top:5px;
+    
+  }
+  .front h2,h3,h1,p{
+    text-align: center;
+     position:relative;
+    color:white;
+  }
+  /*styling the MJJS*/
+  .front h1{
+    font-family: 'Ms Madi';font-size: 140px;
+    letter-spacing: 6px;
+    top:110px;
+  }
+  /*styling the cuisine*/
+  .front h2{
+    font-size: 35px;
+    top:120px;
+  }
+  /*styling the first dashed line*/
+  .one{
+    top:220px;
+  }
+  /*styling the second dashed line*/
+  .two{
+    top:300px;
+  }
+  /*styling the text btw 2 lines*/
+  .front h3{
+    font-size:35px;
+    top:260px;
+  }
+  /*styling the about section*/
+  .about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/or.jpeg");
+    margin-top:5px;
+  }
+  section{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:700px;
+    width:100%;
+  }
+  /*styling the plate in it*/
+  .about .food{
+    position:relative;
+    float:left;
+    margin-top:120px;
+  }
+  /*styling the text in about section*/
+  .about .content h3{
+    font-size: 4rem;
+    padding:.5rem 0;
+    text-transform:uppercase;
+  }
+  .about .content{
+    color:white;
+    position:relative;
+    top:10px;
+  }
+  .about .content p{
+  font-size: 1.5rem;
+  padding:.5rem 0;
+  line-height: 1.5;
+    margin-top:20px;
+  }
+  .icons{
+    display:flex;
+    justify-content:flex-start;
+    position:relative;
+    left:50px;
+    top:40px;
+    width:400px;
+  }
+  .icons img{
+    height:80px;
+  }
+  .icons .mar{
+    margin-left:50px;
+  }
+  .icons p{
+    font-weight:900;
+    text-transform:uppercase;
+  }

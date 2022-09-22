@@ -1,0 +1,80 @@
+/* tablet breakpoint */
+@media (max-width:952px){
+    nav ul li a{
+      font-size:16px;
+    }
+  }
+  
+  /* mobile breakpoint */
+  @media only screen and (max-width:600px){
+    .checkbtn{
+      display:block;
+    }
+    ul{
+      font-family:'Nunito', sans-serif;
+      margin-top:54px;
+      position:fixed;
+      width:100vw;
+      height:100vh;
+      background:black;
+      top:80px;
+      left:-100%;
+      text-align:center;
+      transition: all .5s;
+      z-index:1;
+    }
+    .front,.desserts,.menu,.dishes,.about{
+      z-index:0;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;    
+    }
+    nav ul li a{
+      font-size: 20px;
+      color:white;
+    }
+    a:hover{
+      background:none;
+      color:orange;
+    }
+    #check:checked ~ ul {
+      left:0;
+    }
+    .front{
+        height:900px;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .icons p{
+        position:relative;
+        right:30px;
+    }
+    .about .food{
+        left:50px;
+        bottom:90px;
+        height:300px;
+    }
+    .about .content h3{
+        
+        font-size: 3rem;
+    }
+    .about .content p{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .halal{
+        margin-top:22px;
+
+    }
+    .twenty{
+        margin-top:40px;
+    }
+    .about{
+        height:1500px;;
+        background-repeat: repeat-y;
+    }
+  }

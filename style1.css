@@ -1,0 +1,99 @@
+
+/* styling the menu section*/
+.menu{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("images/food1.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:700px;
+    width:100%;
+    position:relative;
+    top:5px;
+  }
+  /*styling each section for food*/
+  .dishes{
+    background:#eee;
+    margin-top:10px;
+  }
+  /*styling the menu img in the section*/
+  .menuimg{
+    display:block;
+    text-align:center;
+    position:relative;
+    top:220px;
+  }
+  /*styling to have cards*/
+  .dishes .box-container{
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      gap:0.6rem;
+  }
+  /*styling the box in container*/
+  .dishes .box-container .box{
+      background: #fff;
+      border:.1rem solid rgba(0,0,0,.2);
+  /*     width:250px;
+      height:30rem; */
+      margin-left:15px;
+      margin-top:15px;
+      box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);    
+      width:250px;
+      height:30rem;
+  }
+  /*styling the img div*/
+  .dishes .box-container .box .image{
+      height: 15rem;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+  }
+  .desserts .box-container .box .image{
+    height: 16.5rem;
+  }
+  .desserts{
+    background:transparent;
+    margin-top:0px;
+  }
+  
+  .dishes .box-container .box .image img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  /*styling the content*/
+  .dishes .box-container .box .content{
+    text-align:center;
+  }
+  /*styling the names*/
+  .dishes .box-container .box .content h3{
+      color:black;
+      font-size: 2.1rem;
+  }
+  /*styling the description*/
+  .dishes .box-container .box .content p{
+      color:rgba(158,158,158,0.7);
+      font-size: 1.2rem;   
+  }
+  /*styling the price*/
+  .dishes .box-container .box .content .price{
+      color:orange;
+      margin-left: 0.2rem;
+      font-size: 1.5rem;
+  }
+  /*styling the sub heading*/
+  .dishes .mini{
+    color:orange;
+    text-align: center;
+      font-size: 3rem;
+      padding-top: 1.8rem;
+    text-transform: capitalize;
+  }
+  /*styling sub heading*/
+  .dishes .super{
+    color:black;
+    text-align: center;
+      font-size: 2.5rem;
+      padding-bottom: 2rem;
+      text-transform: uppercase;
+  }
+  
